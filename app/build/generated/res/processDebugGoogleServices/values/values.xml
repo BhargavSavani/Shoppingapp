@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">511302437340</string>
+    <string name="google_api_key" translatable="false">AIzaSyC91X1CRoe-H4ZpkCgunM80xE-rODERrLw</string>
+    <string name="google_app_id" translatable="false">1:511302437340:android:fa98f68be96b3ac522e719</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC91X1CRoe-H4ZpkCgunM80xE-rODERrLw</string>
+    <string name="google_storage_bucket" translatable="false">fir-app-7e452.appspot.com</string>
+    <string name="project_id" translatable="false">fir-app-7e452</string>
+</resources>

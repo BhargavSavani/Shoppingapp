@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="colorPrimary">@color/black</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_id">ca-app-pub-1257043524413169~1184884613</string>
+    <string name="app_name">FirebaseApp</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="gcm_defaultSenderId" translatable="false">511302437340</string>
+    <string name="google_api_key" translatable="false">AIzaSyC91X1CRoe-H4ZpkCgunM80xE-rODERrLw</string>
+    <string name="google_app_id" translatable="false">1:511302437340:android:fa98f68be96b3ac522e719</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC91X1CRoe-H4ZpkCgunM80xE-rODERrLw</string>
+    <string name="google_storage_bucket" translatable="false">fir-app-7e452.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">fir-app-7e452</string>
+    <style name="Base.Theme.FirebaseApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+         <item name="colorPrimaryDark">#7393FD</item>
+
+
+    </style>
+    <style name="Theme.FirebaseApp" parent="Base.Theme.FirebaseApp"/>
+</resources>
