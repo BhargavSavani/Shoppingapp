@@ -155,6 +155,7 @@ public class Otpvarification extends AppCompatActivity {
 
         bottomSheetDialog.show();
     }
+
     private void signInWithPhoneAuthCredential(PhoneAuthCredential credential) {
         mAuth.signInWithCredential(credential).addOnCompleteListener(this, task -> {
             if (task.isSuccessful()) {

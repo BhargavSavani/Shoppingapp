@@ -41,7 +41,6 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderViewHol
             Picasso.get().load(order.getProducts().get(0).getImageUrl()).into(holder.orderProductImageView);
         }
 
-
         holder.totalAmountTextView.setText(String.format("Price: " + "₹%.2f", order.getTotalAmount()));
         holder.statusTextView.setText("Status: " + order.getStatus());
         holder.timestampTextView.setText("Date: " + new SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.getDefault()).format(order.getTimestamp()));

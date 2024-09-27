@@ -1,14 +1,14 @@
-#Wed May 29 17:01:47 IST 2024
-base.0=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.4=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.5=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.6=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.7=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.8=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
-base.9=C\:\\Users\\Bhargav Savani\\AndroidStudioProjects\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes4.dex
+#Fri Sep 27 10:07:28 IST 2024
+base.0=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.4=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.5=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.6=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.7=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.8=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.9=E\:\\AndroidStudioProjects\\Java\\FirebaseApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes4.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

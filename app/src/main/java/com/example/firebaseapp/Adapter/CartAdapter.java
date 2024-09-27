@@ -80,7 +80,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
         return cartItems.size();
     }
 
-
     private void removeItemFromFirestore(CartItem cartItem) {
         String userId = auth.getCurrentUser().getUid();
         db.collection("carts").document(userId).collection("items")
@@ -95,7 +94,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
                     Toast.makeText(context, "Error removing item from cart", Toast.LENGTH_SHORT).show();
                 });
     }
-
 
     public static class CartViewHolder extends RecyclerView.ViewHolder {
         ImageView productImageView;

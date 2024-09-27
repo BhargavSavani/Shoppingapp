@@ -41,12 +41,12 @@ com.example.firebaseapp-constraintlayout-2.1.4-39 C:\Users\Bhargav Savani\.gradl
 com.example.firebaseapp-play-services-ads-lite-23.1.0-40 C:\Users\Bhargav Savani\.gradle\caches\transforms-3\eec30571b26a31bdbc1fc2a6751d2c10\transformed\play-services-ads-lite-23.1.0\res
 com.example.firebaseapp-datastore-1.0.0-41 C:\Users\Bhargav Savani\.gradle\caches\transforms-3\f042529eb31810894a8df382a51dc163\transformed\datastore-1.0.0\res
 com.example.firebaseapp-lifecycle-process-2.6.1-42 C:\Users\Bhargav Savani\.gradle\caches\transforms-3\f120c3a44360a2471e95d1a032cfac3b\transformed\lifecycle-process-2.6.1\res
-com.example.firebaseapp-res-43 C:\Users\Bhargav Savani\AndroidStudioProjects\FirebaseApp\app\build\generated\crashlytics\res\debug
-com.example.firebaseapp-pngs-44 C:\Users\Bhargav Savani\AndroidStudioProjects\FirebaseApp\app\build\generated\res\pngs\debug
-com.example.firebaseapp-res-45 C:\Users\Bhargav Savani\AndroidStudioProjects\FirebaseApp\app\build\generated\res\processDebugGoogleServices
-com.example.firebaseapp-resValues-46 C:\Users\Bhargav Savani\AndroidStudioProjects\FirebaseApp\app\build\generated\res\resValues\debug
-com.example.firebaseapp-packageDebugResources-47 C:\Users\Bhargav Savani\AndroidStudioProjects\FirebaseApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.firebaseapp-packageDebugResources-48 C:\Users\Bhargav Savani\AndroidStudioProjects\FirebaseApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.firebaseapp-merged_res-49 C:\Users\Bhargav Savani\AndroidStudioProjects\FirebaseApp\app\build\intermediates\merged_res\debug
-com.example.firebaseapp-debug-50 C:\Users\Bhargav Savani\AndroidStudioProjects\FirebaseApp\app\src\debug\res
-com.example.firebaseapp-main-51 C:\Users\Bhargav Savani\AndroidStudioProjects\FirebaseApp\app\src\main\res
+com.example.firebaseapp-res-43 E:\AndroidStudioProjects\Java\FirebaseApp\app\build\generated\crashlytics\res\debug
+com.example.firebaseapp-pngs-44 E:\AndroidStudioProjects\Java\FirebaseApp\app\build\generated\res\pngs\debug
+com.example.firebaseapp-res-45 E:\AndroidStudioProjects\Java\FirebaseApp\app\build\generated\res\processDebugGoogleServices
+com.example.firebaseapp-resValues-46 E:\AndroidStudioProjects\Java\FirebaseApp\app\build\generated\res\resValues\debug
+com.example.firebaseapp-packageDebugResources-47 E:\AndroidStudioProjects\Java\FirebaseApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.firebaseapp-packageDebugResources-48 E:\AndroidStudioProjects\Java\FirebaseApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.firebaseapp-merged_res-49 E:\AndroidStudioProjects\Java\FirebaseApp\app\build\intermediates\merged_res\debug
+com.example.firebaseapp-debug-50 E:\AndroidStudioProjects\Java\FirebaseApp\app\src\debug\res
+com.example.firebaseapp-main-51 E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\res

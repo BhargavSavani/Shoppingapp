@@ -3521,11 +3521,9 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nav_account
 id nav_current_orders
 id nav_delivered_orders
 id nav_logout
-id nav_settings
 id navigationView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container

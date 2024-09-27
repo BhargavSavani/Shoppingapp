@@ -72,11 +72,9 @@ id ivDecreaseQuantity
 id ivIncreaseQuantity
 id ivOpenDrawer
 id ivRemoveFromCart
-id nav_account
 id nav_current_orders
 id nav_delivered_orders
 id nav_logout
-id nav_settings
 id navigationView
 id orderDateTextView
 id orderProductImageView

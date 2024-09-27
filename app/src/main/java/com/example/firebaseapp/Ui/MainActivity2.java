@@ -4,6 +4,7 @@ import static android.content.ContentValues.TAG;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
@@ -26,6 +27,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.webkit.internal.ApiFeature;
 
 import com.example.firebaseapp.Adapter.ProductAdapter;
 import com.example.firebaseapp.Model.Product;
@@ -45,11 +47,14 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.ArrayList;
@@ -66,6 +71,9 @@ public class MainActivity2 extends AppCompatActivity {
     FirebaseAuth mAuth;
     FirebaseUser user;
     BottomNavigationView btNavigation;
+    private SharedPreferences sharedPreferences;
+    private static final String PREFS_NAME = "user_prefs";
+    private static final String KEY_PROFILE_IMAGE_URI = "profile_image_uri";
     String userId;
     CircleImageView ci1;
     private static final int PICK_IMAGE_REQUEST = 100;
@@ -135,7 +143,16 @@ public class MainActivity2 extends AppCompatActivity {
         searchView = findViewById(R.id.searchView);
 
         tvName = navigationView.getHeaderView(0).findViewById(R.id.tvName);
+        tvEmail = navigationView.getHeaderView(0).findViewById(R.id.tvEmail);
         ci1 = navigationView.getHeaderView(0).findViewById(R.id.ci1);
+
+        sharedPreferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+
+        String savedImageUri = sharedPreferences.getString(KEY_PROFILE_IMAGE_URI, null);
+        if (savedImageUri != null) {
+            Uri imageUri = Uri.parse(savedImageUri);
+            ci1.setImageURI(imageUri);
+        }
 
         if (user == null) {
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
@@ -186,12 +203,7 @@ public class MainActivity2 extends AppCompatActivity {
 
                 int id = item.getItemId();
 
-                if (id == R.id.nav_account) {
-                    Toast.makeText(MainActivity2.this, "My Account", Toast.LENGTH_SHORT).show();
-                } else if (id == R.id.nav_settings) {
-                    Toast.makeText(MainActivity2.this, "Settings", Toast.LENGTH_SHORT).show();
-
-                } else if (id == R.id.nav_current_orders) {
+                if (id == R.id.nav_current_orders) {
                     setFragment(new CurrentOrdersFragment(), false);
 
                 } else if (id == R.id.nav_delivered_orders) {
@@ -243,6 +255,10 @@ public class MainActivity2 extends AppCompatActivity {
         if (requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK && data != null) {
             Uri selectedImageUri = data.getData();
             ci1.setImageURI(selectedImageUri);
+
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString(KEY_PROFILE_IMAGE_URI, selectedImageUri.toString());
+            editor.apply();
         }
     }
 

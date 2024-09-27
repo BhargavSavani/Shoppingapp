@@ -23,7 +23,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
-
     EditText edtEmail, edtPassword;
     Button Login, fbLogin, gLogin;
     TextView tvSignup;
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        if(currentUser != null){
+        if (currentUser != null) {
             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
             startActivity(intent);
             finish();
@@ -78,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
+
                 if (TextUtils.isEmpty(password)) {
                     edtPassword.setError("Please Enter Your Password");
                     edtPassword.requestFocus();
@@ -105,11 +105,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     private void hideKeyboard() {
         View view = this.getCurrentFocus();
-        if (view != null) {
-            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+            if (view != null) {
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
     }
 }
