@@ -116,6 +116,7 @@ public class CartFragment extends Fragment {
                 .addOnSuccessListener(documentReference -> clearCart(userId))
                 .addOnFailureListener(e -> Toast.makeText(getContext(), "Error placing order", Toast.LENGTH_SHORT).show());
     }
+
     private void clearCart(String userId) {
         db.collection("carts").document(userId).collection("items")
                 .get()
