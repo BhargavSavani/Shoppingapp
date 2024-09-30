@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvSignup;
     private ProgressBar progressbar;
     private FirebaseAuth mAuth;
+
 
     @Override
     public void onStart() {
@@ -76,7 +78,6 @@ public class MainActivity extends AppCompatActivity {
                     edtEmail.requestFocus();
                     return;
                 }
-
 
                 if (TextUtils.isEmpty(password)) {
                     edtPassword.setError("Please Enter Your Password");

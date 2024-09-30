@@ -2,11 +2,14 @@ package com.example.firebaseapp.Ui;
 
 import static android.content.ContentValues.TAG;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
@@ -15,11 +18,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -27,7 +31,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.webkit.internal.ApiFeature;
 
 import com.example.firebaseapp.Adapter.ProductAdapter;
 import com.example.firebaseapp.Model.Product;
@@ -38,7 +41,6 @@ import com.example.firebaseapp.fragment.DeliveredOrdersFragment;
 import com.example.firebaseapp.fragment.FavouriteFragment;
 import com.example.firebaseapp.fragment.HomeFragment;
 import com.example.firebaseapp.fragment.ProfileFragment;
-import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.LoadAdError;
@@ -47,14 +49,11 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.ArrayList;
@@ -71,9 +70,10 @@ public class MainActivity2 extends AppCompatActivity {
     FirebaseAuth mAuth;
     FirebaseUser user;
     BottomNavigationView btNavigation;
-    private SharedPreferences sharedPreferences;
-    private static final String PREFS_NAME = "user_prefs";
-    private static final String KEY_PROFILE_IMAGE_URI = "profile_image_uri";
+
+    private static final int READ_PERMISSION_REQUEST = 101;
+    private static final int REQUEST_CODE_OPEN_DOCUMENT = 1;
+
     String userId;
     CircleImageView ci1;
     private static final int PICK_IMAGE_REQUEST = 100;
@@ -83,12 +83,14 @@ public class MainActivity2 extends AppCompatActivity {
     SearchView searchView;
     AdView adView;
     InterstitialAd mInterstitialAd;
+    SharedPreferences sharedPreferences;
 
     @SuppressLint("NotifyDataSetChanged")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        sharedPreferences = getSharedPreferences("profileImage", MODE_PRIVATE);
 
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
@@ -130,9 +132,9 @@ public class MainActivity2 extends AppCompatActivity {
         productRecyclerView.setAdapter(productAdapter);
 
         mAuth = FirebaseAuth.getInstance();
+
         user = mAuth.getCurrentUser();
         db = FirebaseFirestore.getInstance();
-
 
         userId = mAuth.getCurrentUser().getUid();
 
@@ -146,13 +148,12 @@ public class MainActivity2 extends AppCompatActivity {
         tvEmail = navigationView.getHeaderView(0).findViewById(R.id.tvEmail);
         ci1 = navigationView.getHeaderView(0).findViewById(R.id.ci1);
 
-        sharedPreferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
-
-        String savedImageUri = sharedPreferences.getString(KEY_PROFILE_IMAGE_URI, null);
-        if (savedImageUri != null) {
-            Uri imageUri = Uri.parse(savedImageUri);
+        String getimage = sharedPreferences.getString("image", "");
+        if (getimage != null) {
+            Uri imageUri = Uri.parse(getimage);
             ci1.setImageURI(imageUri);
         }
+
 
         if (user == null) {
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
@@ -244,23 +245,48 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     private void openGallery() {
-        Intent galleryIntent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-        startActivityForResult(galleryIntent, PICK_IMAGE_REQUEST);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, READ_PERMISSION_REQUEST);
+                return;
+            }
+        }
+        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+        intent.setType("image/*");
+        startActivityForResult(intent, REQUEST_CODE_OPEN_DOCUMENT);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == READ_PERMISSION_REQUEST) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                openGallery();
+            } else {
+                Log.d("MainActivity2", "Permission denied");
+            }
+        }
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
-        if (requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK && data != null) {
+        if (requestCode == REQUEST_CODE_OPEN_DOCUMENT && resultCode == RESULT_OK && data != null) {
             Uri selectedImageUri = data.getData();
-            ci1.setImageURI(selectedImageUri);
+            if (selectedImageUri != null) {
+                getContentResolver().takePersistableUriPermission(selectedImageUri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
-            SharedPreferences.Editor editor = sharedPreferences.edit();
-            editor.putString(KEY_PROFILE_IMAGE_URI, selectedImageUri.toString());
-            editor.apply();
+                ci1.setImageURI(selectedImageUri);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString("image", selectedImageUri.toString());
+                editor.apply();
+
+
+            }
         }
     }
+
 
     private void setFragment(Fragment fragment, boolean flag) {
         FragmentManager fragmentManager = getSupportFragmentManager();

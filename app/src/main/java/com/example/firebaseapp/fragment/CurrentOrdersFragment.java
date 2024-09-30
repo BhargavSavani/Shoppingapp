@@ -46,9 +46,7 @@ public class CurrentOrdersFragment extends Fragment {
         fetchCurrentOrders();
 
         return view;
-
     }
-
     private void fetchCurrentOrders() {
         String userId = auth.getCurrentUser().getUid();
         db.collection("orders")
