@@ -26,6 +26,15 @@ public final class ActivityProductDetailBinding implements ViewBinding {
   public final Button btnAddToCart;
 
   @NonNull
+  public final ImageView ivsimliar1;
+
+  @NonNull
+  public final ImageView ivsimliar2;
+
+  @NonNull
+  public final ImageView ivsimliar3;
+
+  @NonNull
   public final TextView productDetailDescriptionTextView;
 
   @NonNull
@@ -41,11 +50,15 @@ public final class ActivityProductDetailBinding implements ViewBinding {
   public final TextView productDetailTitleTextView;
 
   private ActivityProductDetailBinding(@NonNull ScrollView rootView, @NonNull Button btnAddToCart,
+      @NonNull ImageView ivsimliar1, @NonNull ImageView ivsimliar2, @NonNull ImageView ivsimliar3,
       @NonNull TextView productDetailDescriptionTextView, @NonNull ImageView productDetailImageView,
       @NonNull TextView productDetailPriceTextView, @NonNull RatingBar productDetailRatingBar,
       @NonNull TextView productDetailTitleTextView) {
     this.rootView = rootView;
     this.btnAddToCart = btnAddToCart;
+    this.ivsimliar1 = ivsimliar1;
+    this.ivsimliar2 = ivsimliar2;
+    this.ivsimliar3 = ivsimliar3;
     this.productDetailDescriptionTextView = productDetailDescriptionTextView;
     this.productDetailImageView = productDetailImageView;
     this.productDetailPriceTextView = productDetailPriceTextView;
@@ -86,6 +99,24 @@ public final class ActivityProductDetailBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.ivsimliar1;
+      ImageView ivsimliar1 = ViewBindings.findChildViewById(rootView, id);
+      if (ivsimliar1 == null) {
+        break missingId;
+      }
+
+      id = R.id.ivsimliar2;
+      ImageView ivsimliar2 = ViewBindings.findChildViewById(rootView, id);
+      if (ivsimliar2 == null) {
+        break missingId;
+      }
+
+      id = R.id.ivsimliar3;
+      ImageView ivsimliar3 = ViewBindings.findChildViewById(rootView, id);
+      if (ivsimliar3 == null) {
+        break missingId;
+      }
+
       id = R.id.productDetailDescriptionTextView;
       TextView productDetailDescriptionTextView = ViewBindings.findChildViewById(rootView, id);
       if (productDetailDescriptionTextView == null) {
@@ -116,9 +147,9 @@ public final class ActivityProductDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProductDetailBinding((ScrollView) rootView, btnAddToCart,
-          productDetailDescriptionTextView, productDetailImageView, productDetailPriceTextView,
-          productDetailRatingBar, productDetailTitleTextView);
+      return new ActivityProductDetailBinding((ScrollView) rootView, btnAddToCart, ivsimliar1,
+          ivsimliar2, ivsimliar3, productDetailDescriptionTextView, productDetailImageView,
+          productDetailPriceTextView, productDetailRatingBar, productDetailTitleTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,286 +1,286 @@
 [
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_corder.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\corder.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_visibility_off.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_visibility_off.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_fragment_delivered_orders.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_delivered_orders.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_cancle.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\cancle.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_s1.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\s1.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_show_password_selector.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/show_password_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_order.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/order.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_activity_registration.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_registration.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_img_1.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\img_1.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_app_bar.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/app_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_fragment_cart.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_cart.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_person_24.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_contain_lay.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/contain_lay.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_activity_splashscreen.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_splashscreen.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_fragment_current_orders.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_current_orders.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_cart_item.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/cart_item.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_remove.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_remove.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_settings_24.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/menu_nav_item.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/menu/nav_item.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_custom_dialog_layout.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\custom_dialog_layout.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_cancle.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/cancle.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_google.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\google.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_fragment_profile.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_favorite_border.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_favorite_border.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_fragment_delivered_orders.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_delivered_orders.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_ic_favourite_empty.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/ic_favourite_empty.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_img.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\img.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_logout_24.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_logout_24.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_remove.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_remove.xml"
     },
     {
-        "merged": "com.example.firebaseapp-merged_res-49:/layout_activity_main2.xml.flat",
-        "source": "com.example.firebaseapp-main-51:/layout/activity_main2.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_s1.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/s1.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_logout_24.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_logout_24.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_activity_main2.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_main2.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_activity_registration.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_registration.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_search_view_bg.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\search_view_bg.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_product_item.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/product_item.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_favorite.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_favorite.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_corder.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/corder.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_profile.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_fragment_home.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_settings_24.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_settings_24.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_img_1.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/img_1.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_lock_outline.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_lock_outline.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_shopping_cart.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_shopping_cart.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_contain_lay.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\contain_lay.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_fragment_favourite.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_favourite.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_mockup.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\mockup.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_mockup.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/mockup.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_header_lay.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\header_lay.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_google.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/google.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_phone_android.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_phone_android.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/menu_navigation_menu.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/menu/navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_facebook.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\facebook.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_activity_main.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_i1.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\i1.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_favorite.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_activity_otpvarification.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_otpvarification.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_dehaze_24.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_dehaze_24.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_show_password_selector.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\show_password_selector.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_activity_update_data.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_update_data.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_horizontal_divider.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/horizontal_divider.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_order_item.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\order_item.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_activity_otpvarification.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_otpvarification.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_activity_update_data.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_update_data.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_activity_product_detail.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_product_detail.xml"
     },
     {
-        "merged": "com.example.firebaseapp-merged_res-49:/menu_navigation_menu.xml.flat",
-        "source": "com.example.firebaseapp-main-51:/menu/navigation_menu.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_search_view_bg.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/search_view_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_o1.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\o1.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_header_lay.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/header_lay.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_vertical_divider.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\vertical_divider.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_fragment_cart.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_cart.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_activity_splashscreen.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_splashscreen.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_add.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_add.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_img.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/img.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_app_bar.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\app_bar.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_dehaze_24.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_dehaze_24.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_fragment_current_orders.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_current_orders.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_order.png.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\order.png"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_facebook.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/facebook.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_horizontal_divider.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\horizontal_divider.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_add.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_add.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\menu_navigation_menu.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\menu\\navigation_menu.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_o1.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/o1.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_person.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_person.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_activity_main2.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_main2.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_shopping_cart.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_shopping_cart.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_person.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_person.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_home.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_home.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_outline_email.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\outline_email.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_vertical_divider.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/vertical_divider.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\menu_nav_item.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\menu\\nav_item.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_order_item.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/order_item.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_fragment_favourite.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_favourite.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/raw_animation.json.flat",
+        "source": "com.example.firebaseapp-main-52:/raw/animation.json"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_lock_outline.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_lock_outline.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_visibility_off.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_visibility_off.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_cart_item.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\cart_item.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/xml_backup_rules.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_main.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_i1.png.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/i1.png"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/layout_custom_dialog_layout.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/layout/custom_dialog_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_activity_product_detail.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_product_detail.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_search.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_search.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_home.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\xml\\backup_rules.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_ic_favourite_empty.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\ic_favourite_empty.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_outline_email.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/outline_email.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\drawable_baseline_favorite_border.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\drawable\\baseline_favorite_border.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.firebaseapp-main-52:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_phone_android.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_phone_android.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-merged_res-49:\\layout_product_item.xml.flat",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\product_item.xml"
+        "merged": "com.example.firebaseapp-merged_res-50:/drawable_baseline_home.xml.flat",
+        "source": "com.example.firebaseapp-main-52:/drawable/baseline_home.xml"
     }
 ]

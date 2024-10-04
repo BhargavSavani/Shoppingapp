@@ -1,86 +1,82 @@
 [
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\activity_registration.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_registration.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/fragment_cart.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_cart.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\fragment_current_orders.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_current_orders.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/header_lay.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/header_lay.xml"
     },
     {
-        "merged": "com.example.firebaseapp-mergeDebugResources-48:/layout/activity_main2.xml",
-        "source": "com.example.firebaseapp-main-51:/layout/activity_main2.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/app_bar.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/app_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\contain_lay.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\contain_lay.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/custom_dialog_layout.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/custom_dialog_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\cart_item.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\cart_item.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/activity_update_data.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_update_data.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\custom_dialog_layout.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\custom_dialog_layout.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/cart_item.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/cart_item.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\app_bar.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\app_bar.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/order_item.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/order_item.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\header_lay.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\header_lay.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/fragment_current_orders.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_current_orders.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\activity_splashscreen.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_splashscreen.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_main.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/activity_registration.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_registration.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\fragment_favourite.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_favourite.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/fragment_delivered_orders.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_delivered_orders.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\activity_main2.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_main2.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/fragment_home.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\product_item.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\product_item.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/activity_main2.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_main2.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_home.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/activity_product_detail.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_product_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\fragment_delivered_orders.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_delivered_orders.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/fragment_favourite.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_favourite.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\activity_update_data.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_update_data.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/contain_lay.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/contain_lay.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\activity_product_detail.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_product_detail.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/activity_otpvarification.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_otpvarification.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\activity_otpvarification.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\activity_otpvarification.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/activity_splashscreen.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/activity_splashscreen.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\fragment_profile.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_profile.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/product_item.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/product_item.xml"
     },
     {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\order_item.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\order_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-mergeDebugResources-48:\\layout\\fragment_cart.xml",
-        "source": "C:\\Users\\Bhargav Savani\\.gradle\\daemon\\8.2\\com.example.firebaseapp-main-51:\\layout\\fragment_cart.xml"
+        "merged": "com.example.firebaseapp-mergeDebugResources-49:/layout/fragment_profile.xml",
+        "source": "com.example.firebaseapp-main-52:/layout/fragment_profile.xml"
     }
 ]

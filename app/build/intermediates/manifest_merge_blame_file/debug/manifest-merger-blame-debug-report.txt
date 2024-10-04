@@ -130,48 +130,48 @@
 71            android:exported="false" />
 71-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:30:13-37
 72        <activity
-72-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:31:9-35:20
+72-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:31:9-39:20
 73            android:name="com.example.firebaseapp.Ui.Splashscreen"
 73-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:32:13-44
 74            android:exported="true" >
 74-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:33:13-36
-75        </activity>
-76        <activity
-76-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:36:9-38:40
-77            android:name="com.example.firebaseapp.Ui.Otpvarification"
-77-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:37:13-47
-78            android:exported="false" />
-78-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:38:13-37
-79        <activity
-79-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:39:9-41:40
-80            android:name="com.example.firebaseapp.Ui.RegistrationActivity"
-80-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:40:13-52
-81            android:exported="false" />
-81-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:41:13-37
-82        <activity
-82-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:42:9-45:68
-83            android:name="com.example.firebaseapp.Ui.MainActivity2"
-83-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:43:13-45
-84            android:exported="false"
-84-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:44:13-37
-85            android:windowSoftInputMode="adjustPan|adjustResize" />
-85-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:45:13-65
-86        <activity
-86-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:46:9-54:20
-87            android:name="com.example.firebaseapp.Ui.MainActivity"
-87-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:47:13-44
-88            android:exported="true" >
-88-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:48:13-36
-89            <intent-filter>
-89-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:49:9-53:25
-90                <action android:name="android.intent.action.MAIN" />
-90-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:50:13-65
-90-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:50:21-62
-91
-92                <category android:name="android.intent.category.LAUNCHER" />
-92-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:52:13-73
-92-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:52:23-70
-93            </intent-filter>
+75            <intent-filter>
+75-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:34:13-38:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:35:17-69
+76-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:35:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:37:17-77
+78-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:37:27-74
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:40:9-42:40
+82            android:name="com.example.firebaseapp.Ui.Otpvarification"
+82-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:41:13-47
+83            android:exported="false" />
+83-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:42:13-37
+84        <activity
+84-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:43:9-45:40
+85            android:name="com.example.firebaseapp.Ui.RegistrationActivity"
+85-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:44:13-52
+86            android:exported="false" />
+86-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:45:13-37
+87        <activity
+87-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:46:9-49:68
+88            android:name="com.example.firebaseapp.Ui.MainActivity2"
+88-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:47:13-45
+89            android:exported="false"
+89-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:48:13-37
+90            android:windowSoftInputMode="adjustPan|adjustResize" />
+90-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:49:13-65
+91        <activity
+91-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:50:9-54:20
+92            android:name="com.example.firebaseapp.Ui.MainActivity"
+92-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:51:13-44
+93            android:exported="true" >
+93-->E:\AndroidStudioProjects\Java\FirebaseApp\app\src\main\AndroidManifest.xml:52:13-36
 94        </activity>
 95
 96        <service

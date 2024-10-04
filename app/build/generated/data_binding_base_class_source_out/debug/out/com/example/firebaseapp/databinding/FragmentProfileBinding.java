@@ -4,20 +4,43 @@ package com.example.firebaseapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.firebaseapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private FragmentProfileBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final Button btnUpdateProfile;
+
+  @NonNull
+  public final EditText emailAddress;
+
+  @NonNull
+  public final ProgressBar progressBarProfile;
+
+  @NonNull
+  public final EditText userName;
+
+  private FragmentProfileBinding(@NonNull LinearLayout rootView, @NonNull Button btnUpdateProfile,
+      @NonNull EditText emailAddress, @NonNull ProgressBar progressBarProfile,
+      @NonNull EditText userName) {
     this.rootView = rootView;
+    this.btnUpdateProfile = btnUpdateProfile;
+    this.emailAddress = emailAddress;
+    this.progressBarProfile = progressBarProfile;
+    this.userName = userName;
   }
 
   @Override
@@ -43,10 +66,38 @@ public final class FragmentProfileBinding implements ViewBinding {
 
   @NonNull
   public static FragmentProfileBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btnUpdateProfile;
+      Button btnUpdateProfile = ViewBindings.findChildViewById(rootView, id);
+      if (btnUpdateProfile == null) {
+        break missingId;
+      }
 
-    return new FragmentProfileBinding((LinearLayout) rootView);
+      id = R.id.emailAddress;
+      EditText emailAddress = ViewBindings.findChildViewById(rootView, id);
+      if (emailAddress == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBarProfile;
+      ProgressBar progressBarProfile = ViewBindings.findChildViewById(rootView, id);
+      if (progressBarProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.userName;
+      EditText userName = ViewBindings.findChildViewById(rootView, id);
+      if (userName == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((LinearLayout) rootView, btnUpdateProfile, emailAddress,
+          progressBarProfile, userName);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

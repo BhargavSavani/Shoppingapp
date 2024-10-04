@@ -55,7 +55,6 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         this.context = context;
         this.showFavoriteIcon = showFavoriteIcon;
         db = FirebaseFirestore.getInstance();
-
     }
 
     @NonNull

@@ -72,6 +72,11 @@
         <activity
             android:name="com.example.firebaseapp.Ui.Splashscreen"
             android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.example.firebaseapp.Ui.Otpvarification"
@@ -86,11 +91,6 @@
         <activity
             android:name="com.example.firebaseapp.Ui.MainActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service

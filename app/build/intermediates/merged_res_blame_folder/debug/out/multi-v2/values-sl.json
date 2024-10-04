@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.firebaseapp-mergeDebugResources-47:/values-sl/values-sl.xml",
+            "outputFile": "com.example.firebaseapp-mergeDebugResources-48:/values-sl/values-sl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Bhargav Savani\\.gradle\\caches\\transforms-3\\cac1be272c43a54608b469b0f239b168\\transformed\\play-services-base-18.1.0\\res\\values-sl\\values.xml",

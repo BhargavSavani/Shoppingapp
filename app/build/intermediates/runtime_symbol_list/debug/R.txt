@@ -813,6 +813,22 @@ int attr logo 0x7f0302dd
 int attr logoAdjustViewBounds 0x7f0302de
 int attr logoDescription 0x7f0302df
 int attr logoScaleType 0x7f0302e0
+int attr lottie_autoPlay 0x7f0304f0
+int attr lottie_cacheComposition 0x7f0304f1
+int attr lottie_colorFilter 0x7f0304f2
+int attr lottie_enableMergePathsForKitKatAndAbove 0x7f0304f3
+int attr lottie_fallbackRes 0x7f0304f4
+int attr lottie_fileName 0x7f0304f5
+int attr lottie_imageAssetsFolder 0x7f0304f6
+int attr lottie_loop 0x7f0304f7
+int attr lottie_progress 0x7f0304f8
+int attr lottie_rawRes 0x7f0304f9
+int attr lottie_renderMode 0x7f0304fa
+int attr lottie_repeatCount 0x7f0304fb
+int attr lottie_repeatMode 0x7f0304fc
+int attr lottie_scale 0x7f0304fd
+int attr lottie_speed 0x7f0304fe
+int attr lottie_url 0x7f0304ff
 int attr marginHorizontal 0x7f0302e1
 int attr marginLeftSystemWindowInsets 0x7f0302e2
 int attr marginRightSystemWindowInsets 0x7f0302e3
@@ -3031,6 +3047,7 @@ int drawable baseline_person 0x7f070084
 int drawable baseline_person_24 0x7f070085
 int drawable baseline_phone_android 0x7f070086
 int drawable baseline_remove 0x7f070087
+int drawable baseline_search 0x7f070119
 int drawable baseline_settings_24 0x7f070088
 int drawable baseline_shopping_cart 0x7f070089
 int drawable baseline_visibility_off 0x7f07008a
@@ -3265,6 +3282,7 @@ int id allStates 0x7f080055
 int id always 0x7f080056
 int id animateToEnd 0x7f080057
 int id animateToStart 0x7f080058
+int id animation_view 0x7f080263
 int id antiClockwise 0x7f080059
 int id anticipate 0x7f08005a
 int id arc 0x7f08005b
@@ -3274,6 +3292,7 @@ int id auto 0x7f08005e
 int id autoComplete 0x7f08005f
 int id autoCompleteToEnd 0x7f080060
 int id autoCompleteToStart 0x7f080061
+int id automatic 0x7f080264
 int id barrier 0x7f080062
 int id baseline 0x7f080063
 int id beginOnFirstDraw 0x7f080064
@@ -3293,6 +3312,7 @@ int id browser_actions_menu_view 0x7f080071
 int id btNavigationView 0x7f080072
 int id btnAddToCart 0x7f080073
 int id btnPlaceOrder 0x7f080074
+int id btnUpdateProfile 0x7f08025f
 int id buttonPanel 0x7f080075
 int id cache_measures 0x7f080076
 int id callMeasure 0x7f080077
@@ -3380,6 +3400,7 @@ int id edtName 0x7f0800c8
 int id edtPassword 0x7f0800c9
 int id edtPassword1 0x7f0800ca
 int id elastic 0x7f0800cb
+int id emailAddress 0x7f080260
 int id embed 0x7f0800cc
 int id end 0x7f0800cd
 int id endToStart 0x7f0800ce
@@ -3417,6 +3438,7 @@ int id graph_wrap 0x7f0800ed
 int id group_divider 0x7f0800ee
 int id grouping 0x7f0800ef
 int id groups 0x7f0800f0
+int id hardware 0x7f080265
 int id header_title 0x7f0800f1
 int id hideable 0x7f0800f2
 int id home 0x7f0800f3
@@ -3432,7 +3454,6 @@ int id ignoreRequest 0x7f0800fc
 int id image 0x7f0800fd
 int id imageTitle1 0x7f0800fe
 int id imageUrl1 0x7f0800ff
-int id imageview 0x7f080100
 int id immediateStop 0x7f080101
 int id included 0x7f080102
 int id indeterminate 0x7f080103
@@ -3446,6 +3467,9 @@ int id ivDecreaseQuantity 0x7f08010a
 int id ivIncreaseQuantity 0x7f08010b
 int id ivOpenDrawer 0x7f08010c
 int id ivRemoveFromCart 0x7f08010d
+int id ivsimliar1 0x7f08025c
+int id ivsimliar2 0x7f08025d
+int id ivsimliar3 0x7f08025e
 int id jumpToEnd 0x7f08010e
 int id jumpToStart 0x7f08010f
 int id labeled 0x7f080110
@@ -3460,6 +3484,7 @@ int id line3 0x7f080118
 int id linear 0x7f080119
 int id listMode 0x7f08011a
 int id list_item 0x7f08011b
+int id lottie_layer_name 0x7f080266
 int id m3_side_sheet 0x7f08011c
 int id marquee 0x7f08011d
 int id masked 0x7f08011e
@@ -3602,6 +3627,7 @@ int id productRecyclerView 0x7f0801a8
 int id productTitleTextView 0x7f0801a9
 int id profile 0x7f0801aa
 int id progressBar 0x7f0801ab
+int id progressBarProfile 0x7f080261
 int id progress_circular 0x7f0801ac
 int id progress_horizontal 0x7f0801ad
 int id progressbar 0x7f0801ae
@@ -3614,6 +3640,8 @@ int id rectangles 0x7f0801b4
 int id recyclerViewFavorites 0x7f0801b5
 int id report_drawn 0x7f0801b6
 int id resendTextview 0x7f0801b7
+int id restart 0x7f080267
+int id reverse 0x7f080268
 int id reverseSawtooth 0x7f0801b8
 int id right 0x7f0801b9
 int id rightToLeft 0x7f0801ba
@@ -3659,6 +3687,7 @@ int id snackbar_action 0x7f0801e1
 int id snackbar_text 0x7f0801e2
 int id snap 0x7f0801e3
 int id snapMargins 0x7f0801e4
+int id software 0x7f080269
 int id south 0x7f0801e5
 int id spacer 0x7f0801e6
 int id special_effects_controller_view_tag 0x7f0801e7
@@ -3746,7 +3775,6 @@ int id transition_position 0x7f080238
 int id transition_scene_layoutid_cache 0x7f080239
 int id transition_transform 0x7f08023a
 int id triangle 0x7f08023b
-int id tv1 0x7f08023c
 int id tvEmail 0x7f08023d
 int id tvName 0x7f08023e
 int id tvSign 0x7f08023f
@@ -3756,6 +3784,7 @@ int id uniform 0x7f080242
 int id unlabeled 0x7f080243
 int id up 0x7f080244
 int id useLogo 0x7f080245
+int id userName 0x7f080262
 int id verifyOTPButton 0x7f080246
 int id vertical_only 0x7f080247
 int id view_offset_helper 0x7f080248
@@ -3997,6 +4026,7 @@ int menu navigation_menu 0x7f0d0001
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int plurals mtrl_badge_content_description 0x7f0f0000
+int raw animation 0x7f100001
 int raw firebase_common_keep 0x7f100000
 int string abc_action_bar_home_description 0x7f110000
 int string abc_action_bar_up_description 0x7f110001
@@ -6639,6 +6669,23 @@ int[] styleable LoadingImageView { 0x7f0300d6, 0x7f03023c, 0x7f03023d }
 int styleable LoadingImageView_circleCrop 0
 int styleable LoadingImageView_imageAspectRatio 1
 int styleable LoadingImageView_imageAspectRatioAdjust 2
+int[] styleable LottieAnimationView { 0x7f0304f0, 0x7f0304f1, 0x7f0304f2, 0x7f0304f3, 0x7f0304f4, 0x7f0304f5, 0x7f0304f6, 0x7f0304f7, 0x7f0304f8, 0x7f0304f9, 0x7f0304fa, 0x7f0304fb, 0x7f0304fc, 0x7f0304fd, 0x7f0304fe, 0x7f0304ff }
+int styleable LottieAnimationView_lottie_autoPlay 0
+int styleable LottieAnimationView_lottie_cacheComposition 1
+int styleable LottieAnimationView_lottie_colorFilter 2
+int styleable LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove 3
+int styleable LottieAnimationView_lottie_fallbackRes 4
+int styleable LottieAnimationView_lottie_fileName 5
+int styleable LottieAnimationView_lottie_imageAssetsFolder 6
+int styleable LottieAnimationView_lottie_loop 7
+int styleable LottieAnimationView_lottie_progress 8
+int styleable LottieAnimationView_lottie_rawRes 9
+int styleable LottieAnimationView_lottie_renderMode 10
+int styleable LottieAnimationView_lottie_repeatCount 11
+int styleable LottieAnimationView_lottie_repeatMode 12
+int styleable LottieAnimationView_lottie_scale 13
+int styleable LottieAnimationView_lottie_speed 14
+int styleable LottieAnimationView_lottie_url 15
 int[] styleable MaterialAlertDialog { 0x7f03004c, 0x7f03004d, 0x7f03004e, 0x7f03004f, 0x7f030053 }
 int styleable MaterialAlertDialog_backgroundInsetBottom 0
 int styleable MaterialAlertDialog_backgroundInsetEnd 1

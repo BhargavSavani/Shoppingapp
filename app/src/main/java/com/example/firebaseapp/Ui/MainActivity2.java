@@ -70,13 +70,10 @@ public class MainActivity2 extends AppCompatActivity {
     FirebaseAuth mAuth;
     FirebaseUser user;
     BottomNavigationView btNavigation;
-
     private static final int READ_PERMISSION_REQUEST = 101;
     private static final int REQUEST_CODE_OPEN_DOCUMENT = 1;
-
     String userId;
     CircleImageView ci1;
-    private static final int PICK_IMAGE_REQUEST = 100;
     private ArrayList<Product> productList;
     private ProductAdapter productAdapter;
     FirebaseFirestore db;
@@ -149,10 +146,13 @@ public class MainActivity2 extends AppCompatActivity {
         ci1 = navigationView.getHeaderView(0).findViewById(R.id.ci1);
 
         String getimage = sharedPreferences.getString("image", "");
-        if (getimage != null) {
+        if (getimage != null && !getimage.isEmpty()) {
             Uri imageUri = Uri.parse(getimage);
             ci1.setImageURI(imageUri);
+        } else {
+            ci1.setImageResource(R.drawable.img);  // Set default image
         }
+
 
 
         if (user == null) {
@@ -213,6 +213,8 @@ public class MainActivity2 extends AppCompatActivity {
                 } else {
                     FirebaseAuth.getInstance().signOut();
                     clearUserData();
+                    clearSharedPreferences();
+
                     Intent intent1 = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent1);
                     finish();
@@ -240,9 +242,18 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     private void clearUserData() {
-        tvName.setText("");
-        tvEmail.setText("");
+        tvName.setText("");  // Clear user name
+        tvEmail.setText(""); // Clear user email
+        ci1.setImageResource(R.drawable.img);  // Set a default profile image
     }
+
+
+    private void clearSharedPreferences() {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.clear();  // Clears all the stored data
+        editor.apply();
+    }
+
 
     private void openGallery() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -282,11 +293,9 @@ public class MainActivity2 extends AppCompatActivity {
                 editor.putString("image", selectedImageUri.toString());
                 editor.apply();
 
-
             }
         }
     }
-
 
     private void setFragment(Fragment fragment, boolean flag) {
         FragmentManager fragmentManager = getSupportFragmentManager();

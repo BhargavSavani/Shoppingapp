@@ -1,6 +1,5 @@
 package com.example.firebaseapp.fragment;
 
-
 import static android.content.ContentValues.TAG;
 
 import android.content.Intent;
@@ -52,7 +51,6 @@ public class HomeFragment extends Fragment {
         productAdapter = new ProductAdapter(productList, requireContext(), true);
         binding.rcvMain.setAdapter(productAdapter);
 
-
         db.collection("Products").orderBy("title").get().addOnCompleteListener(task -> {
             if (task.isSuccessful()) {
                 productList.clear();
@@ -61,7 +59,6 @@ public class HomeFragment extends Fragment {
                     product.setId(document.getId());
                     checkIfFavorite(product);
                 }
-
             }
         });
 
@@ -73,7 +70,6 @@ public class HomeFragment extends Fragment {
                 intent.putExtra("product", selectedProduct);
                 startActivity(intent);
             }
-
 
             @Override
             public void onFavoriteClick(int position) {

@@ -4,13 +4,12 @@ package com.example.firebaseapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.airbnb.lottie.LottieAnimationView;
 import com.example.firebaseapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,16 +20,12 @@ public final class ActivitySplashscreenBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView imageview;
-
-  @NonNull
-  public final TextView tv1;
+  public final LottieAnimationView animationView;
 
   private ActivitySplashscreenBinding(@NonNull RelativeLayout rootView,
-      @NonNull ImageView imageview, @NonNull TextView tv1) {
+      @NonNull LottieAnimationView animationView) {
     this.rootView = rootView;
-    this.imageview = imageview;
-    this.tv1 = tv1;
+    this.animationView = animationView;
   }
 
   @Override
@@ -60,19 +55,13 @@ public final class ActivitySplashscreenBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageview;
-      ImageView imageview = ViewBindings.findChildViewById(rootView, id);
-      if (imageview == null) {
+      id = R.id.animation_view;
+      LottieAnimationView animationView = ViewBindings.findChildViewById(rootView, id);
+      if (animationView == null) {
         break missingId;
       }
 
-      id = R.id.tv1;
-      TextView tv1 = ViewBindings.findChildViewById(rootView, id);
-      if (tv1 == null) {
-        break missingId;
-      }
-
-      return new ActivitySplashscreenBinding((RelativeLayout) rootView, imageview, tv1);
+      return new ActivitySplashscreenBinding((RelativeLayout) rootView, animationView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -21,15 +21,12 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class DeliveredOrdersFragment extends Fragment {
-
     private FirebaseFirestore db;
     private FirebaseAuth auth;
     private RecyclerView recyclerView;
     private OrderAdapter orderAdapter;
     private List<Order> orderList = new ArrayList<>();
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -49,6 +46,7 @@ public class DeliveredOrdersFragment extends Fragment {
 
         return view;
     }
+
     private void fetchDeliveredOrders() {
         String userId = auth.getCurrentUser().getUid();
         db.collection("orders")
